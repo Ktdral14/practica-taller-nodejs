@@ -1,0 +1,16 @@
+.formulario-borde {
+    border: 1px solid #000000;
+    border-radius: 15px;
+}
+
+.ph::-webkit-input-placeholder {
+    text-align: center;
+}
+
+.main-container{
+    height: 100vh;
+}
+
+.fill {
+    width: 100%;
+}

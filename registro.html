@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/styles.css" />
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="icon" href="/assets/img/nodejs.png">
+    <script src="/node_modules/jquery/dist/jquery.slim.js"></script>
+    <script src="/node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <base href="/">
+    <title>Principios de NodeJS</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-dark bg-dark">
+            <a class="btn btn-outline-primary" href="/index.html">Volver</a>
+        </nav>
+    </header>
+    <main>
+        <div class="container-fluid main-container">
+            <form class="formulario-borde m-5 p-5" action="">
+                <div class="row">
+                    <input class="form-control-file my-2" type="file" name="foto" id="foto">
+                </div>
+                <div class="row">
+                    <div class="col form-group">
+                        <label for="nombre">Nombre(s)</label>
+                        <input class="form-control my-2" type="text" name="nombre" id="nombre" placeholder="Nombre">
+                        <label for="a_pat">Apellido paterno</label>
+                        <input class="form-control my-2" type="text" name="a_pat" id="a_pat"
+                            placeholder="Apellido Paterno">
+                        <label for="a_mat">Apellido materno</label>
+                        <input class="form-control my-2" type="text" name="a_mat" id="a_mat"
+                            placeholder="Apellido Materno">
+                        <label for="fecha_nac">Fecha de nacimiento</label>
+                        <input class="form-control my-2" type="date" name="fecha_nac" id="fecha_nac"
+                            placeholder="Fecha de Nacimiento">
+                        <label for="sexo">Sexo</label>
+                        <select class="form-control my-2" name="sexo" id="sexo">
+                            <option value="femenino">Femenino</option>
+                            <option value="masculino">Masculino</option>
+                        </select>
+                    </div>
+                    <div class="col form-group">
+                        <label for="bio">Descripción</label>
+                        <textarea class="form-control my-2" name="bio" id="bio" placeholder="Acerca de mí"
+                            rows="3"></textarea>
+                        <label for="correo">Correo electrónico</label>
+                        <input class="form-control my-2" type="text" name="correo" id="correo"
+                            placeholder="Correo electrónico">
+                        <label for="usuario">Usuario</label>
+                        <input class="form-control my-2" type="text" name="usuario" id="usuario" placeholder="Usuario">
+                        <label for="contrasena">Contraseña</label>
+                        <input class="form-control my-2" type="password" name="contrasena" id="contrasena"
+                            placeholder="Contraseña">
+                        <label for="conf_contrasena">Confirme su contraseña</label>
+                        <input class="form-control my-2" type="password" name="conf_contrasena" id="conf_contrasena"
+                            placeholder="Confirmar contraseña">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-check col">
+                        <input type="checkbox" name="terminos" id="terminos">
+                        <label for="terminos">Acepto los términos y condiciones</label>
+                    </div>
+                    <div class="col">
+                        <button class="btn btn-outline-primary" type="submit">Registrarme</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>
